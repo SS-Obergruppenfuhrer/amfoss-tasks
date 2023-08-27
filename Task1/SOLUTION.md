@@ -86,3 +86,5 @@
 *step 234 is decoding a string encoded in base64
 
 *git push origin main to push your local changes to your online repository
+Required screenshot is 
+![image](https://github.com/sunil-collab/amfoss-tasks/assets/133476894/a6df9f2b-6b01-478f-9543-c3ec5e9f1331)
