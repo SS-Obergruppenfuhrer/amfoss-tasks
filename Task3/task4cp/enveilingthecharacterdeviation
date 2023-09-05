@@ -1,0 +1,10 @@
+n = int(input())
+x = "amfoss"
+for i in range(n):
+    s = input().strip()
+    c = 0
+    for j in range(len(s)):
+        if s[j] != x[j]:
+            c += 1
+    print(c)
+
