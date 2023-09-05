@@ -1,0 +1,14 @@
+n = int(input())
+times = list(map(int, input().split()))
+mintime = min(times)
+coutmintime = times.count(mintime)
+x = -1
+for i in range(n):
+    if times[i] == mintime:
+        x = i + 1
+        break
+if coutmintime > 1:
+    print("Still Aetheria")
+else:
+    print(x)
+
