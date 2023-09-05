@@ -1,0 +1,11 @@
+n = int(input())
+sum = [0, 0, 0]
+for j in range(n):
+    xi, yi, zi = map(int, input().split())
+    sum[0] = sum[0]+xi
+    sum[1] = sum[1]+yi
+    sum[2] = sum[2]+zi
+if (sum == [0, 0, 0]):
+    print("YES")
+else:
+    print("NO")

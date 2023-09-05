@@ -1,0 +1,12 @@
+s = input().strip()
+hlo = "hello"
+a = 0 
+for i in s:
+    if i == hlo[a]:
+        a = a + 1 
+        if a == len(hlo):
+            print("YES") 
+            break
+else:
+    print("NO") 
+
