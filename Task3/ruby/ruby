@@ -1,0 +1,17 @@
+puts "enter a no.  "
+n = gets.chomp.to_i
+for i in 2..n
+  a = true
+
+  for j in 2..(i - 1)
+    if i % j == 0
+      a = false
+      break
+    end
+  end
+
+if a == true
+    puts i
+end
+end
+
