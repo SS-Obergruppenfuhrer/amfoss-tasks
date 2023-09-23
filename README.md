@@ -44,3 +44,8 @@ I will contribute whatever to the full potential i can. I can share whatever i k
 | Task14 | Bandit | Completed |
 ---            ---           ---
 | Task15 | Project Euler |
+
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------: | :------: |
+| Content 1| Content 2| Content 3|
+| Content 4| Content 5| Content 6|
