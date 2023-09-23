@@ -11,41 +11,21 @@ My plan is to get better in coding and problem solving thinking. The procedure t
 I will contribute whatever to the full potential i can. I can share whatever i know and can be helpful to someone in their projects/work, become a helping guide for my collegues and try to interactive as much as possible.
 # DO YOU HAVE ANY FEEDBACK ON THE SELECTION PROCESS?
 
-|Tasks List | Description | Status |
- ---            ---           ---
-| Task1 | Install Linux | Completed |
----            ---           ---
-| Task2 | Terminal Wizard | Completed |
----            ---           ---
-| Task3 | Lessgo Hugo | Completed |
----            ---           ---
-| Task4 | Hello World! | Partially Completed |
----            ---           ---
-| Task5 | Competetive Programming | Partially Completed |
----            ---           ---
-| Task5 | Hypertext Mockup Language | Completed |
----            ---           ---
-| Task6 | Cricket Vault |
----            ---           ---
-| Task7 | AK-47℃ | Completed |
----            ---           ---
-| Task8 | Poke-Search! |
----            ---           ---
-| Task9 | GeoQuest | Partially Completed |
----            ---           ---
-| Task10 | RuskOS |
----            ---           ---
-| Task11 | TinkerCAD |
----            ---           ---
-| Task12 | Godot |
----            ---           ---
-| Task13 | Vim |
----            ---           ---
-| Task14 | Bandit | Completed |
----            ---           ---
-| Task15 | Project Euler |
+| Tasks List                                       | Description                 | Status             |
+| ------------------------------------------------ | --------------------------- | ------------------- |
+| [Task1](link/to/Task1/folder)                   | Install Linux               | Completed           |
+| [Task2](link/to/Task2/folder)                   | Terminal Wizard             | Completed           |
+| [Task3](link/to/Task3/folder)                   | Lessgo Hugo                 | Completed           |
+| [Task4](link/to/Task4/folder)                   | Hello World!                | Partially Completed |
+| [Task5](link/to/Task5/folder)                   | Competitive Programming     | Partially Completed |
+| [Task6](link/to/Task6/folder)                   | Hypertext Mockup Language   | Completed           |
+| [Task7](link/to/Task7/folder)                   | Cricket Vault               |                     |
+| [Task8](link/to/Task8/folder)                   | AK-47℃                      | Completed           |
+| [Task9](link/to/Task9/folder)                   | Poke-Search!                |                     |
+| [Task10](link/to/Task10/folder)                 | GeoQuest                    | Partially Completed |
+| [Task11](link/to/Task11/folder)                 | RuskOS                      |                     |
+| [Task12](link/to/Task12/folder)                 | TinkerCAD                   |                     |
+| [Task13](link/to/Task13/folder)                 | Godot                       |                     |
+| [Task14](link/to/Task14/folder)                 | Vim                         |                     |
+| [Task15](link/to/Task15/folder)                 | Bandit                      | Completed           |
 
-| Header 1 | Header 2 | Header 3 |
-| -------- | -------: | :------: |
-| Content 1| Content 2| Content 3|
-| Content 4| Content 5| Content 6|
