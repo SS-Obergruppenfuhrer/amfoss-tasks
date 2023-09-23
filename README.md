@@ -14,18 +14,33 @@ I will contribute whatever to the full potential i can. I can share whatever i k
 |Tasks List | Description | Status |
  ---            ---           ---
 | Task1 | Install Linux | Completed |
+---            ---           ---
 | Task2 | Terminal Wizard | Completed |
+---            ---           ---
 | Task3 | Lessgo Hugo | Completed |
+---            ---           ---
 | Task4 | Hello World! | Partially Completed |
+---            ---           ---
 | Task5 | Competetive Programming | Partially Completed |
+---            ---           ---
 | Task5 | Hypertext Mockup Language | Completed |
+---            ---           ---
 | Task6 | Cricket Vault |
+---            ---           ---
 | Task7 | AK-47℃ | Completed |
+---            ---           ---
 | Task8 | Poke-Search! |
+---            ---           ---
 | Task9 | GeoQuest | Partially Completed |
+---            ---           ---
 | Task10 | RuskOS |
+---            ---           ---
 | Task11 | TinkerCAD |
+---            ---           ---
 | Task12 | Godot |
+---            ---           ---
 | Task13 | Vim |
+---            ---           ---
 | Task14 | Bandit | Completed |
+---            ---           ---
 | Task15 | Project Euler |
