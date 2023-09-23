@@ -11,21 +11,22 @@ My plan is to get better in coding and problem solving thinking. The procedure t
 I will contribute whatever to the full potential i can. I can share whatever i know and can be helpful to someone in their projects/work, become a helping guide for my collegues and try to interactive as much as possible.
 # DO YOU HAVE ANY FEEDBACK ON THE SELECTION PROCESS?
 
-| Tasks List                                       | Description                 | Status             |
-| ------------------------------------------------ | --------------------------- | ------------------- |
-| [Task1](link/to/Task1/folder)                   | Install Linux               | Completed           |
-| [Task2](link/to/Task2/folder)                   | Terminal Wizard             | Completed           |
-| [Task3](link/to/Task3/folder)                   | Lessgo Hugo                 | Completed           |
-| [Task4](link/to/Task4/folder)                   | Hello World!                | Partially Completed |
-| [Task5](link/to/Task5/folder)                   | Competitive Programming     | Partially Completed |
-| [Task6](link/to/Task6/folder)                   | Hypertext Mockup Language   | Completed           |
-| [Task7](link/to/Task7/folder)                   | Cricket Vault               |                     |
-| [Task8](link/to/Task8/folder)                   | AK-47℃                      | Completed           |
-| [Task9](link/to/Task9/folder)                   | Poke-Search!                |                     |
-| [Task10](link/to/Task10/folder)                 | GeoQuest                    | Partially Completed |
-| [Task11](link/to/Task11/folder)                 | RuskOS                      |                     |
-| [Task12](link/to/Task12/folder)                 | TinkerCAD                   |                     |
-| [Task13](link/to/Task13/folder)                 | Godot                       |                     |
-| [Task14](link/to/Task14/folder)                 | Vim                         |                     |
-| [Task15](link/to/Task15/folder)                 | Bandit                      | Completed           |
+| Tasks List                               | Description                 | Status             |
+| ---------------------------------------- | --------------------------- | ------------------- |
+| [Task0](https://example.com/task0)       | Install Linux               | Completed           |
+| [Task1](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task1)       | Terminal Wizard             | Completed           |
+| [Task2](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task2)       | Lessgo Hugo                 | Completed           |
+| [Task3](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3)       | Hello World!                | Partially Completed |
+| [Task4](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3/task4cp)       | Competitive Programming     | Partially Completed |
+| [Task5](https://example.com/task5)       | Hypertext Mockup Language   | Completed           |
+| [Task6](https://example.com/task6)       | Cricket Vault               |                     |
+| [Task7](https://example.com/task7)       | AK-47℃                      | Completed           |
+| [Task8](https://example.com/task8)       | Poke-Search!                |                     |
+| [Task9](https://example.com/task9)       | GeoQuest                    | Partially Completed |
+| [Task10](https://example.com/task10)     | RuskOS                      |                     |
+| [Task11](https://example.com/task11)     | TinkerCAD                   |                     |
+| [Task12](https://example.com/task12)     | Godot                       |                     |
+| [Task13](https://example.com/task13)     | Vim                         |                     |
+| [Task14](https://example.com/task14)     | Bandit                      | Completed           |
+| [Task15](https://example.com/task15)     | Project Euler                |                     |
 
