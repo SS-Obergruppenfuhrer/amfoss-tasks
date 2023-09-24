@@ -1,0 +1,10 @@
+x = int(input())
+for i in range(x):
+    n = int(input())
+    largest_palindrome = 0
+    for j in range(100, 1000):
+        for k in range(100, 1000):
+            pdt = j * k  
+            if str(pdt) == str(pdt)[::-1] and pdt <= n and pdt > largest_palindrome:
+                largest_palindrome = pdt
+    print(largest_palindrome)

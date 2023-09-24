@@ -1,0 +1,14 @@
+n = int(input())
+for i in range(n):
+    num = int(input())
+
+    factor = 2
+    largesfactor = 0
+    while factor <= num:
+        if num % factor == 0:
+            largesfactor = factor
+            num //= factor
+        else:
+            factor += 1
+
+    print(largesfactor)

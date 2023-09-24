@@ -1,0 +1,15 @@
+n = int(input())
+for i in range(n):
+    m = int(input())
+    a = 1
+    b = 2
+    evensum = 0
+
+    while b <= m:
+        if b % 2 == 0:
+            evensum += b
+        next_term = a + b
+        a = b
+        b = next_term
+
+    print(evensum)

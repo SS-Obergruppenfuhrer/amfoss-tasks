@@ -1,0 +1,3 @@
+#geoquest
+This task i couldnt complete because i was not able to modify it somehow how would i make the user put its location or pin it and show its distance ans time to reach from current user location. for approaching this task i first installed flutter through terminal then followed the steps as given in the website. also installed pluggins of osmpluggin for map. then i started searching videos or code similar to this project but i was not able to find. then with its default structure and help of gpt i made a dart file which would show the distance and time to reach the guven static location by us from our current location. thats all i was able to do more my brain couldnt handle. :(
+

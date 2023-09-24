@@ -1,0 +1,3 @@
+#html css
+for this my approach was that to first read the documentaion and understand the commands and function given in the resources. Then i started to watch some projects made on youtube which gave me a vague idea how to go. i created the basic html format then started to modify it. crreating classes links putting a background image, making navbar, creating button to go to next shop page and linking it. customizing everything using css. using css i was doing hit and trial to get my desired position and size. All these was my first experience to make a website through html and css and i had fun doing it. also too a little help from my friend for 2nd page items layout.
+:)
