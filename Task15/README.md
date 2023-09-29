@@ -1,0 +1,10 @@
+#001
+For this task my approach was simple to first iterate through the range given and check with if condition if the elemts are divisible by 3 or 5 then if yea we will add it to sumofmulitple var then print to get our required output.
+#002
+In this task first i created the fibonacci series then for every elemnt in the series upto the limit we check with the help of modulus operator that if its divisible by 2 if yes then we add it to evensum and then at last we print the evensum to get our required output.
+#003
+For this task my approach was inside the loop, check if num is divisible by the current factor using the modulus operator. If num is divisible by factor, it means factor is a prime factor of num. We update the largesfactor to factor and then divide num by factor to reduce it. If num is not divisible by factor, we increase the factor by 1 and continue the loop, searching for the next prime factor.The loop continues until factor becomes greater than num, meaning we've found all prime factors of num.After the loop finishes, largesfactor will contain the largest prime factor of the input number num. print the largesfactor.
+#004
+In this my approach was in a nested loop both i and j iterate from 100 to 1000 and mutiplying everything the with a condition we find the palindrome number which is less than or equal to our input value and then print the palindrome number.
+#005
+in this my approach was i initialised out var to 1 as we are going to multiply values to it. Then inside the loop from the range 2 to m+1, Inside the loop, we check if out is already divisible by the current number i using the % operator . If result is divisible by i, we move on to the next iteration. If result is not divisible by i, it means we need to include i in the result to make it divisible by all numbers from 1 to m. We then find the smallest prime factor j of i by using a while loop. We start with j equal to 2 and check if i is divisible by j. If it is, we multiply result by j to include it in the result. It continues until i is fully divisible by j then breaks. Then we print the value of out.
