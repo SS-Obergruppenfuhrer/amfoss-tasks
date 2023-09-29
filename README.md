@@ -13,13 +13,13 @@ I will contribute whatever to the full potential i can. I can share whatever i k
 
 | Tasks List                               | Description                 | Status             |
 | ---------------------------------------- | --------------------------- | ------------------- |
-| [Task0](https://example.com/task0)       | Install Linux               | Completed           |
+| [Task0](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task0)       | Install Linux               | Completed           |
 | [Task1](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task1)       | Terminal Wizard             | Completed           |
 | [Task2](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task2)       | Lessgo Hugo                 | Completed           |
 | [Task3](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3)       | Hello World!                | Partially Completed |
 | [Task4](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3/task4cp)       | Competitive Programming     | Partially Completed |
 | [Task5](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task5)       | Hypertext Mockup Language   | Completed           |
-| [Task6](https://example.com/task6)       | Cricket Vault               |                     |
+| [Task6](https://example.com/task6)       | Cricket Vault               | Partially Completed                     | 
 | [Task7](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task7)       | AK-47℃                      | Completed           |
 | [Task8](https://example.com/task8)       | Poke-Search!                |                     |
 | [Task9](https://example.com/task9)       | GeoQuest                    | Partially Completed |
