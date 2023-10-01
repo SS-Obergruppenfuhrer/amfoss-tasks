@@ -10,6 +10,7 @@ My plan is to get better in coding and problem solving thinking. The procedure t
 # HOW WOULD I CONTRIBUTE BACK TO THE CLUB?
 I will contribute whatever to the full potential i can. I can share whatever i know and can be helpful to someone in their projects/work, become a helping guide for my collegues and try to interactive as much as possible.
 # DO YOU HAVE ANY FEEDBACK ON THE SELECTION PROCESS?
+These tasks where quite fun and interactive and it was quite a experinece on dev in different things i dont have any suggestion until now. :)
 
 | Tasks List                               | Description                 | Status             |
 | ---------------------------------------- | --------------------------- | ------------------- |
