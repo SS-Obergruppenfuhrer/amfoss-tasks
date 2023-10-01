@@ -1,0 +1,152 @@
+#This is my modified search_window.py
+
+import requests
+from PySide6.QtGui import QPixmap
+from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QMessageBox
+import requests
+
+class SearchWindow(QWidget):
+    """
+    This "window" is a QWidget. If it has no parent, it
+    will appear as a free-floating window as we want.
+    """
+    def __init__(self):
+        super().__init__()
+       
+        self.w = None        
+        self.setFixedSize(850, 500)
+        self.textbox = QLineEdit(self)
+        self.textbox.move(20, 20) 
+        self.textbox.setGeometry(50, 50, 280, 40)
+      
+        
+        label1 = QLabel("Enter the name", self)
+        label1.setGeometry(50, 5, 600, 70)
+
+        enter_button = QPushButton("Search", self)
+        enter_button.setGeometry(50, 300, 160, 43)
+        
+        
+        capture_button = QPushButton("Capture", self)
+        capture_button.setGeometry(50, 350, 160, 43)
+
+        display_button = QPushButton("Display", self)
+        display_button.setGeometry(50, 400, 160, 43)
+        
+        enter_button.clicked.connect(self.fetch_pokemon_data)
+
+    def fetch_pokemon_data(self):
+        pokemon_name = self.textbox.text().strip().lower()
+        if not pokemon_name:
+            return
+
+        api_url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            pokemon_data = response.json()
+            self.display_pokemon_data(pokemon_data)
+
+        else:
+            QMessageBox.critical(self, "Error", "Failed to fetch Pokémon data. Check the name and try again.")
+
+    def display_pokemon_data(self, pokemon_data):
+        name = pokemon_data['name']
+        abilities = [ability['ability']['name'] for ability in pokemon_data['abilities']]
+        types = [poke_type['type']['name'] for poke_type in pokemon_data['types']]
+        image_url = pokemon_data['sprites']['other']['official-artwork']['front_default']
+
+      
+        name_label = QLabel(f"Name: {name}", self)
+        
+        abilities_label = QLabel(f"Abilities: {', '.join(abilities)}", self)
+
+        types_label = QLabel(f"Types: {', '.join(types)}", self)
+
+        pixmap = QPixmap()
+        pixmap.loadFromData(requests.get(image_url).content)
+        image_label = QLabel(self)
+        image_label.setPixmap(pixmap)
+
+        layout = QVBoxLayout()
+        layout.addWidget(name_label)
+        layout.addWidget(abilities_label)
+        layout.addWidget(types_label)
+        layout.addWidget(image_label)
+
+        self.setLayout(layout)
+
+        self.repaint()
+
+        self.setStyleSheet("background-image: url('assets/landing.jpg'); background-repeat: no-repeat; background-position: center;")
+        
+        capture_button.clicked.connect(self.capture_pokemon)
+
+    def capture_pokemon(self):
+        # Check if there is a valid Pokémon image to capture
+        pixmap = self.findChild(QLabel, "pokemon_image")
+        if not pixmap:
+            return
+
+        name_label = self.findChild(QLabel, "pokemon_name")
+        if not name_label:
+            return
+        pokemon_name = name_label.text().split(":")[1].strip()
+
+        captured_folder = "Captured"
+        os.makedirs(captured_folder, exist_ok=True)
+
+        timestamp = QDateTime.currentDateTime().toString("yyyy-MM-dd-HH-mm-ss")
+        image_filename = os.path.join(captured_folder, f"{pokemon_name}_{timestamp}.png")
+
+        pixmap.pixmap().save(image_filename, "PNG")
+
+        QMessageBox.information(self, "Capture", f"{pokemon_name} has been captured and saved as {image_filename}")
+        
+
+class CapturedPokemonWindow(QWidget):
+    def __init__(self, captured_pokemon_data):
+        super().__init__()
+
+        self.setWindowTitle("Captured Pokémon")
+        self.setGeometry(100, 100, 600, 400)
+
+        layout = QVBoxLayout()
+
+        for pokemon_name, image_filename in captured_pokemon_data.items():
+            label = QLabel(f"Name: {pokemon_name}")
+            pixmap = QPixmap(image_filename)
+            label.setPixmap(pixmap)
+            layout.addWidget(label)
+
+        self.setLayout(layout)
+
+
+class SearchWindow(QWidget):
+    def __init__(self):
+
+        display_button.clicked.connect(self.display_captured_pokemon)
+
+    def display_captured_pokemon(self):
+        captured_pokemon_data = {}
+        captured_folder = "Captured"
+        if os.path.exists(captured_folder):
+            for filename in os.listdir(captured_folder):
+                if filename.endswith(".png"):
+                    # Extract the Pokémon name from the filename
+                    pokemon_name = filename.split("_")[0]
+                    captured_pokemon_data[pokemon_name] = os.path.join(captured_folder, filename)
+
+        self.captured_pokemon_window = CapturedPokemonWindow(captured_pokemon_data)
+        self.captured_pokemon_window.show()
+
+
+
+if __name__ == "__main__":
+    import sys
+    from PySide6.QtWidgets import QApplication
+
+    app = QApplication(sys.argv)
+    window = SearchWindow()
+    window.show()
+    sys.exit(app.exec())

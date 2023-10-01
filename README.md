@@ -16,17 +16,17 @@ I will contribute whatever to the full potential i can. I can share whatever i k
 | [Task0](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task0)       | Install Linux               | Completed           |
 | [Task1](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task1)       | Terminal Wizard             | Completed           |
 | [Task2](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task2)       | Lessgo Hugo                 | Completed           |
-| [Task3](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3)       | Hello World!                | Partially Completed |
-| [Task4](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3/task4cp)       | Competitive Programming     | Partially Completed |
+| [Task3](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3)       | Hello World!                | 6/10 Completed |
+| [Task4](https://github.com/sunil-collab/amfoss-tasks/tree/843bc7d9fead075a296f66cf1c8a3cc1ed13c63a/Task3/task4cp)       | Competitive Programming     | 5/10 Completed |
 | [Task5](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task5)       | Hypertext Mockup Language   | Completed           |
 | [Task6](https://example.com/task6)       | Cricket Vault               | Partially Completed                     | 
 | [Task7](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task7)       | AK-47℃                      | Completed           |
-| [Task8](https://example.com/task8)       | Poke-Search!                |                     |
-| [Task9](https://example.com/task9)       | GeoQuest                    | Partially Completed |
-| [Task10](https://example.com/task10)     | RuskOS                      |                     |
-| [Task11](https://example.com/task11)     | TinkerCAD                   |                     |
-| [Task12](https://example.com/task12)     | Godot                       |                     |
-| [Task13](https://example.com/task13)     | Vim                         |                     |
+| [Task8](https://example.com/task8)       | Poke-Search!                | Partially Completed                    |
+| [Task9](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task9)     | GeoQuest                    | Partially Completed |
+| [Task10]     | RuskOS                      |                     |
+| [Task11]     | TinkerCAD                   |                     |
+| [Task12]     | Godot                       |                     |
+| [Task13]     | Vim                         |                     |
 | [Task14](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task14)     | Bandit                      | Completed           |
 | [Task15](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task15)     | Project Euler                | Completed                    |
 
