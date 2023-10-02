@@ -24,10 +24,10 @@ These tasks where quite fun and interactive and it was quite a experinece on dev
 | [Task7](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task7)       | AK-47℃                      | Completed           |
 | [Task8](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task8)       | Poke-Search!                | Partially Completed                    |
 | [Task9](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task9)     | GeoQuest                    | Partially Completed |
-| [Task10]()     | RuskOS                      |                     |
-| [Task11]()     | TinkerCAD                   |                     |
-| [Task12]()     | Godot                       |                     |
-| [Task13]()     | Vim                         |                     |
+| [Task10]()     | RuskOS                      | Not Completed                    |
+| [Task11]()     | TinkerCAD                   | Not Completed                    |
+| [Task12]()     | Godot                       | Not Completed                    |
+| [Task13]()     | Vim                         | Not Completed                    |
 | [Task14](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task14)     | Bandit                      | Completed           |
 | [Task15](https://github.com/sunil-collab/amfoss-tasks/tree/main/Task15)     | Project Euler                | Completed                    |
 
